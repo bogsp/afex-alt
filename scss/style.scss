@@ -1,0 +1,104 @@
+@import './variables';
+@import "./maps";
+@import "./mixins";
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+// Navigation
+nav {
+  background-color: $gray-400;
+  div {
+    .navbar-brand {
+      width: 8vw;
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+
+#contact {
+  background-color: $gray-400;
+
+  .brand {
+    text-align: right;
+
+    img {
+      width: 20vw;
+    }
+  }
+}
+
+
+// Footer
+
+footer {
+
+  .small {
+    font-size: .7rem;
+  }
+
+  #copyright {
+    text-align: left;
+  }
+
+  #social-icons {
+    text-align: right;
+  }
+
+  #policies ul li,
+  #social-icons ul li {
+    display: inline;
+  }
+}
+
+@include respond-below(md) {
+  nav {
+    div {
+      .navbar-brand {
+        width: 30vw;
+
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  #contact {
+    .brand {
+      text-align: center;
+
+      img {
+        width: 60vw;
+      }
+    }
+  }
+
+
+  footer {
+
+    #copyright,
+    #social-icons {
+      text-align: center;
+    }
+
+    #social-icons {
+      padding: 0;
+    }
+
+    #policies ul li {
+      display: block;
+    }
+  }
+}
