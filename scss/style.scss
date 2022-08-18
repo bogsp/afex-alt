@@ -27,6 +27,14 @@ nav {
   }
 }
 
+.text-highlight {
+  color: $highlight;
+}
+
+.bg-gray {
+  background-color: $gray-400;
+}
+
 #contact {
   background-color: $gray-400;
 

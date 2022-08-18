@@ -12157,6 +12157,14 @@ nav div .navbar-brand img {
   width: 100%;
 }
 
+.text-highlight {
+  color: #eec401;
+}
+
+.bg-gray {
+  background-color: #ced4da;
+}
+
 #contact {
   background-color: #ced4da;
 }
