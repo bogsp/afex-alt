@@ -41,8 +41,12 @@ nav {
   .brand {
     text-align: right;
 
-    img {
-      width: 20vw;
+    a {
+      width: 15vw;
+
+      img {
+        width: auto;
+      }
     }
   }
 }
@@ -87,7 +91,7 @@ footer {
     .brand {
       text-align: center;
 
-      img {
+      a {
         width: 60vw;
       }
     }

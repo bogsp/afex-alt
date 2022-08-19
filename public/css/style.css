@@ -12171,8 +12171,11 @@ nav div .navbar-brand img {
 #contact .brand {
   text-align: right;
 }
-#contact .brand img {
-  width: 20vw;
+#contact .brand a {
+  width: 15vw;
+}
+#contact .brand a img {
+  width: auto;
 }
 
 footer .small {
@@ -12199,7 +12202,7 @@ footer #social-icons ul li {
   #contact .brand {
     text-align: center;
   }
-  #contact .brand img {
+  #contact .brand a {
     width: 60vw;
   }
   footer #copyright,
