@@ -16,6 +16,7 @@ ul {
 // Navigation
 nav {
   background-color: $gray-400;
+
   div {
     .navbar-brand {
       width: 8vw;
@@ -40,14 +41,11 @@ nav {
 
   .brand {
     text-align: right;
+    max-width: 15vw;
+  }
 
-    a {
-      width: 15vw;
-
-      img {
-        width: auto;
-      }
-    }
+  .map {
+    text-align: right;
   }
 }
 
@@ -90,10 +88,11 @@ footer {
   #contact {
     .brand {
       text-align: center;
+      max-width: 60vw;
+    }
 
-      a {
-        width: 60vw;
-      }
+    .map {
+      text-align: center;
     }
   }
 
