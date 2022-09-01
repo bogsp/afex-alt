@@ -8,11 +8,6 @@ a {
   text-decoration: none;
 }
 
-ul {
-  list-style: none;
-  padding-left: 0;
-}
-
 // Navigation
 nav {
   background-color: $gray-400;
@@ -54,8 +49,31 @@ nav {
 
 footer {
 
+  ul {
+    list-style: none;
+    padding-left: 0;
+  }
+
+  .footer-top {
+    .afex-logo {
+      text-align: right;
+      max-width: 15vh;
+
+      a {
+        img {
+          width: 100%;
+        }
+      }
+    }
+
+    .insights {
+      text-align: right;
+    }
+  }
+
+
   .small {
-    font-size: .7rem;
+    font-size: .9rem;
   }
 
   #copyright {
@@ -86,18 +104,21 @@ footer {
   }
 
   #contact {
-    .brand {
-      text-align: center;
-      max-width: 60vw;
-    }
-
     .map {
       text-align: center;
     }
   }
 
-
   footer {
+    .footer-top {
+      .afex-logo {
+        text-align: center;
+      }
+
+      .insights {
+        text-align: center;
+      }
+    }
 
     #copyright,
     #social-icons {
@@ -110,6 +131,21 @@ footer {
 
     #policies ul li {
       display: block;
+    }
+  }
+}
+
+@include respond-below(sm) {
+  footer {
+    .footer-top {
+      .afex-logo {
+        text-align: center;
+        max-width: 100% !important;
+      }
+
+      .insights {
+        text-align: center;
+      }
     }
   }
 }
