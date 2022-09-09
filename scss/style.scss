@@ -39,8 +39,9 @@ nav {
     max-width: 15vw;
   }
 
-  .map {
-    text-align: right;
+  .grecaptcha-badge {
+    bottom: -20px !important;
+    right: 13px !important;
   }
 }
 
@@ -104,8 +105,9 @@ footer {
   }
 
   #contact {
-    .map {
-      text-align: center;
+    .grecaptcha-badge {
+      bottom: -75px !important;
+      right: 44px !important;
     }
   }
 
@@ -136,6 +138,13 @@ footer {
 }
 
 @include respond-below(sm) {
+  #contact {
+    .grecaptcha-badge {
+      bottom: -80px !important;
+      right: auto !important;
+    }
+  }
+
   footer {
     .footer-top {
       .afex-logo {

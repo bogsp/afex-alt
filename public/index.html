@@ -12,6 +12,7 @@
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="/css/style.min.css">
+    <!-- <link rel="stylesheet" href="/css/style.css"> -->
 </head>
 
 <body>
@@ -37,16 +38,12 @@
                             Register
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="/registration-closed.html">Guest</a></li>
-                            <li><a class="dropdown-item" href="/registration-closed.html">Exhibitor</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="/#contact">Get in touch</a></li>
+                            <li><a class="dropdown-item" href="/booking">Exhibitor</a></li>
+                            <li><a class="dropdown-item" href="/registration">Visitor</a></li>
                         </ul>
                     </li>
                     <li class="nav-item ms-lg-3" aria-current="page" href="#">
-                        <a class="nav-link" href="/faq.html">FAQ</a>
+                        <a class="nav-link" href="/faq">FAQ</a>
                     </li>
                     <li class="nav-item ms-lg-3" aria-current="page" href="#">
                         <a class="nav-link" href="/#contact">Contact</a>
@@ -54,25 +51,18 @@
                 </ul>
                 <ul class="nav fs-4 pb-sm-3 pb-lg-0 ms-lg-5">
                     <li class="ms-4">
-                        <a href="http://facebook.com" class="link-light"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="http://facebook.com" target="_blank" class="link-light"><i class="fa-brands fa-facebook"></i></a>
                     </li>
                     <li class="ms-4">
-                        <a href="http://twitter.com" class="link-light"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://instagram.com" target="_blank" class="link-light"><i class="fa-brands fa-instagram"></i></a>
                     </li>
                     <li class="ms-4">
-                        <a href="http://linkedin.com" class="link-light"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://linkedin.com" target="_blank" class="link-light"><i class="fa-brands fa-linkedin"></i></a>
                     </li>
                     <li class="ms-4">
-                        <a href="http://instagram.com" class="link-light"><i class="fa-brands fa-instagram"></i></a>
-                    </li>
-                    <li class="ms-4">
-                        <a href="http://youtube.com" class="link-light"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="https://www.viber.com/" target="_blank" class="link-light"><i class="fa-brands fa-viber"></i></a>
                     </li>
                 </ul>
-                <!-- <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-light" type="submit">Search</button>
-                </form> -->
             </div>
         </div>
     </nav>
@@ -82,19 +72,15 @@
                 <div class="p-xl-5">
                     <h1 class="text-primary" data-aos="fade-right" data-aos-easing="ease-in-cubic"
                         data-aos-duration="500">AsiaFood Expo</h1>
-                    <p data-aos="fade-right" data-aos-easing="ease-in-cubic" data-aos-duration="800">Join
+                    <p data-aos="fade-right" data-aos-easing="ease-in-cubic" data-aos-duration="600">Join
                         Philippines&apos; 29th international exposition on food processing, packaging, handling
                         machinery, equipment and technology</p>
                     <blockquote class="blockquote py-3" data-aos="fade-right" data-aos-easing="ease-in-cubic"
-                        data-aos-duration="1000">
-                        <p class="fs-1 text-danger">Registration is closed</p>
+                        data-aos-duration="700">
+                        <p id="timer" class="display-6"></p>
                     </blockquote>
-                    <!-- <blockquote class="blockquote py-3">
-                        <p class="display-6">00D:00H:00M:00S</p>
-                    </blockquote>
-                    <a class="btn btn-primary btn-lg" href="/visitor-registration.html" role="button">Visit</a>
-                    <a class="btn btn-secondary  btn-lg mx-3" href="/exhibitors-registration.html"
-                        role="button">Exhibit</a> -->
+                    <a class="btn btn-secondary btn-lg" href="/booking" role="button" data-aos="fade-right"
+                        data-aos-easing="ease-in-cubic" data-aos-duration="800">Book your space now!</a>
                 </div>
             </div>
             <div class="col-lg m-0 p-0">
@@ -108,21 +94,18 @@
         <section id="benefits" class="row container-fluid m-0 p-0">
             <div class="row m-0 p-5 text-center">
                 <div class="col-sm py-3" data-aos="fade-up" data-aos-easing="ease-in-cubic" data-aos-duration="500">
-                    <a href="#"><img src="/img/img01.jpg" class="img-fluid mx-auto d-block pb-3"
-                            alt="placeholder"></a>
+                    <a href="#"><img src="/img/img01.jpg" class="img-fluid mx-auto d-block pb-3" alt="placeholder"></a>
                     <h5 class="py-2">Visit AFEX</h5>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, nulla? Lorem ipsum dolor sit
                         amet consectetur adipisicing elit. Quos, dolores.</p>
                 </div>
                 <div class="col-sm py-3" data-aos="fade-up" data-aos-easing="ease-in-cubic" data-aos-duration="800">
-                    <a href="#"><img src="/img/img02.jpg" class="img-fluid mx-auto d-block pb-3"
-                            alt="placeholder"></a>
+                    <a href="#"><img src="/img/img02.jpg" class="img-fluid mx-auto d-block pb-3" alt="placeholder"></a>
                     <h5 class="py-2">Become an Exhibitor</h5>
                     <p>Gain an edge and showcase your products. Reach out to more potential connections.</p>
                 </div>
                 <div class="col-sm py-3" data-aos="fade-up" data-aos-easing="ease-in-cubic" data-aos-duration="1000">
-                    <a href="#"><img src="/img/img03.jpg" class="img-fluid mx-auto d-block pb-3"
-                            alt="placeholder"></a>
+                    <a href="#"><img src="/img/img03.jpg" class="img-fluid mx-auto d-block pb-3" alt="placeholder"></a>
                     <h5 class="py-2">Experience AFEX</h5>
                     <p>Develop your networks by strengthening relationships to help achieve your own and your
                         organization&apos;s goals.</p>
@@ -186,6 +169,8 @@
                     <p data-aos="fade-left" data-aos-easing="ease-in-cubic" data-aos-duration="1000">Lorem ipsum, dolor
                         sit amet consectetur adipisicing elit. Vitae vel architecto tempore tempora
                         sequi atque, blanditiis ullam! Saepe, magni inventore.</p>
+                    <a class="btn btn-light btn-lg mt-5" href="/booking" role="button" data-aos="fade-right"
+                        data-aos-easing="ease-in-cubic" data-aos-duration="800">Book your space now!</a>
                 </div>
             </div>
         </section>
@@ -331,16 +316,15 @@
     <footer class="container-fluid bg-primary m-0 pb-3 text-light">
         <div class="footer-top row p-5 bg-secondary">
             <div class="afex-logo col-sm" data-aos="fade-right" data-aos-easing="ease-in-cubic"
-            data-aos-duration="1000">
+                data-aos-duration="1000">
                 <a href="/" class="link-light"><img src="/img/afex2023_logo.png" alt="afex2023_logo"></a>
             </div>
             <div class="insights col-sm py-5" data-aos="fade-left" data-aos-easing="ease-in-cubic"
-            data-aos-duration="1000">
+                data-aos-duration="1000">
                 <a class="btn btn-lg btn-light" href="#" role="button">Sign up for fresh insights</a>
             </div>
             <div id="links" class="row">
-                <div class="col-sm" data-aos="fade-up" data-aos-easing="ease-in-cubic"
-                            data-aos-duration="500">
+                <div class="col-sm" data-aos="fade-up" data-aos-easing="ease-in-cubic" data-aos-duration="500">
                     <h5>Join AFEX</h5>
                     <hr>
                     <ul>
@@ -352,8 +336,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-sm" data-aos="fade-up" data-aos-easing="ease-in-cubic"
-                            data-aos-duration="600">
+                <div class="col-sm" data-aos="fade-up" data-aos-easing="ease-in-cubic" data-aos-duration="600">
                     <h5>About Us</h5>
                     <hr>
                     <ul>
@@ -368,8 +351,7 @@
                         </li> -->
                     </ul>
                 </div>
-                <div class="col-sm" data-aos="fade-up" data-aos-easing="ease-in-cubic"
-                            data-aos-duration="700">
+                <div class="col-sm" data-aos="fade-up" data-aos-easing="ease-in-cubic" data-aos-duration="700">
                     <h5>Helpful Links</h5>
                     <hr>
                     <ul>
@@ -439,6 +421,7 @@
     <script>
         AOS.init();
     </script>
+    <script src="/js/main.js"></script>
 </body>
 
 </html>
